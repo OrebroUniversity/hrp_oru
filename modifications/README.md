@@ -20,4 +20,4 @@ Below is a complete list of hardware along with references to locations where yo
 In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below.
 
 ![alt text][batteries]
-[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
+[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.png "Placement of batteries"
