@@ -57,18 +57,17 @@ In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the
 
 ![alt text][batteries]
 
-[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
-
-
 The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer (which utilizes these holes to mount a VESA compatible plate (that is the computer needs to be mounted before the mounting bracket is mounted on the mower. The 4 countersink is for the NUC rubber support legs to get a snug fit.
 
 ![alt text][mount2]
 
-[mount2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
+The complete setup with the NUC computer is shown below.
 
 ![alt text][mount3]
 
-The complete setup with the NUC computer is shown below.
 
-[mount3]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
+
+[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
+[mount2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
+[mount3]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount3.jpeg "Placement of mounting bracket".
 
