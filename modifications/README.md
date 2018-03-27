@@ -35,11 +35,8 @@ The battery power is accessed by soldering two wires as described in the [HRP st
 To be able to turn on and off the power an additional power switch is mounted close to the rear right wheel as shown below.
 
 ![alt text][battery_switch]
-![alt text][battery_switch2]
 
-[battery_switch]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/battery_switch.jpeg "Battery switch - outside"
-
-[battery_switch2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/battery_switch.jpeg "Battery switch - inside"
+[battery_switch]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/battery_switch.jpeg "Battery switch placement"
 
 ### Serial connection
 
