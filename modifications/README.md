@@ -15,10 +15,22 @@ Below is a complete list of hardware along with references to locations where yo
 * [Power Connector](https://www.elfa.se/en/power-plug-lumberg-connect-gmbh-1634-02/p/30068406) - Power DC plug that fits the NUC computer. 
 * Mount bracket (3D printed) to hold the computer. Will replace the normal battery bracket.
 
+
+## 3D printed computer / battery holder
+
+This setup require that you print the following item.
+
+![alt text][mount]
+
+[mount]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount.jpeg "3D printed mounting bracket for holding the batteries and the NUC computer"
+
+
+
+
 ## Modifications
 
-In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below.
+In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below (please also note the battery extension cable [black / yellow]).
 
 ![alt text][batteries]
 
-[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.png "Placement of batteries"
+[batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
