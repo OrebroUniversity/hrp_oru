@@ -1,6 +1,6 @@
 # Modification of the HRP platform at Örebro University
 
-This folder describes the modifications made to the HRP platforms used at AASS, \"Orebro University. The central idea is to find enought space be able to fit a standard intel based NUC computer inside the mower (which should allow mounting of any relatively large piece of equipment inside the mower).
+This folder describes the modifications made to the HRP platforms used at AASS, \"Orebro University. The central idea is to find enough space be able to fit a standard Intel based NUC computer inside the mower (which should allow mounting of any relatively large piece of equipment inside the mower).
 
 
 ## Hardware list
@@ -10,7 +10,7 @@ Below is a complete list of hardware along with references to locations where yo
 * [Intel NUC6CAYH](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc6cayh.html) - The computer used.
 * [USB <-> Serial converter](https://se.rs-online.com/web/p/products/0429262) - FTDI Chip, UB232R, note that the mower wants a connection with 3.3V.
 * [Serial Connector](https://www.elfa.se/en/male-cable-connectorp-te-connectivity-215083/p/14382321) - Male cable connectorP, 7-215083-8, TE Connectivity. To connect to the back-plane on the mower.
-* [Battery Extension Cable](https://www.kjell.com/se/sortiment/dator-natverk/datorkomponenter/interna-kablar/strom-intern/forlangningskabel-for-p4-p98052?showOffline=True) - To extend one of the orginial battery cables.
+* [Battery Extension Cable](https://www.kjell.com/se/sortiment/dator-natverk/datorkomponenter/interna-kablar/strom-intern/forlangningskabel-for-p4-p98052?showOffline=True) - To extend one of the original battery cables.
 * [Power Switch](https://www.elfa.se/sv/tryckvippstroemstaellarep-10-28-vdc-arcolectric-r13112blab/p/30013207) - Turn on/off the NUC computer.
 * [Power Connector](https://www.elfa.se/en/power-plug-lumberg-connect-gmbh-1634-02/p/30068406) - Power DC plug that fits the NUC computer. 
 * Mount bracket (3D printed) to hold the computer / batteries. Will replace the normal battery bracket.
@@ -30,7 +30,7 @@ The CAD drawing is available [here](https://github.com/OrebroUniversity/hrp_oru/
 
 ### Battery connection
 
-The battery power is accesse by soldering two wrires as described in the [HRP starup guide document](https://github.com/HusqvarnaResearch/hrp/blob/master/Startup%20Guide%20HRP.pdf) in the "Power Option Section" to get direct access to the batteries.
+The battery power is accessed by soldering two wires as described in the [HRP startup guide document](https://github.com/HusqvarnaResearch/hrp/blob/master/Startup%20Guide%20HRP.pdf) in the "Power Option Section" to get direct access to the batteries.
 
 To be able to turn on and off the power an additional power switch is mounted close to the rear right wheel as shown below.
 
@@ -45,7 +45,7 @@ To be able to turn on and off the power an additional power switch is mounted cl
 
 To communicate with the mower an USB <-> serial adapter is used (see the hardware list above). One of the AUX port is used with the serial connector. The following pins are connected:
 
-| AUX (backplane) | USB serial board |
+| AUX (back-plane) | USB serial board |
 | ------ | ------ |
 | 1 (red) | 7 |
 | 2 | 8 |
@@ -60,4 +60,15 @@ In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the
 [batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
 
 
-The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer (which utilizes these holes to mount a VESA compatible plate. The 4 countersink is for the NUC rubber support legs to get a snug fit.
+The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer (which utilizes these holes to mount a VESA compatible plate (that is the computer needs to be mounted before the mounting bracket is mounted on the mower. The 4 countersink is for the NUC rubber support legs to get a snug fit.
+
+![alt text][mount2]
+
+[mount2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
+
+![alt text][mount3]
+
+The complete setup with the NUC computer is shown below.
+
+[mount3]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
+
