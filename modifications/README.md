@@ -1,6 +1,6 @@
 # Modification of the HRP platform at Örebro University
 
-This folder describes the modifications made to the HRP platforms used at AASS, \"Orebro University. The central idea is to find enough space be able to fit a standard Intel based NUC computer inside the mower (which should allow mounting of any relatively large piece of equipment inside the mower).
+This folder describes the modifications made to the HRP platforms used at AASS, Örebro University, Sweden. The central idea is to find enough space be able to fit a standard Intel based NUC computer inside the mower (which should allow mounting of any relatively large piece of equipment inside the mower).
 
 
 ## Hardware list
