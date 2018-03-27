@@ -54,7 +54,7 @@ In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the
 
 ![alt text][batteries]
 
-The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer (which utilizes these holes to mount a VESA compatible plate (that is the computer needs to be mounted before the mounting bracket is mounted on the mower. The 4 countersink is for the NUC rubber support legs to get a snug fit.
+The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer, which originally utilizes these holes to mount a VESA compatible plate (that is the computer needs to be mounted before the mounting bracket is mounted on the mower). The 4 countersink is for the NUC rubber support legs to get a snug fit.
 
 ![alt text][mount2]
 
