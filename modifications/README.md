@@ -13,24 +13,51 @@ Below is a complete list of hardware along with references to locations where yo
 * [Battery Extension Cable](https://www.kjell.com/se/sortiment/dator-natverk/datorkomponenter/interna-kablar/strom-intern/forlangningskabel-for-p4-p98052?showOffline=True) - To extend one of the orginial battery cables.
 * [Power Switch](https://www.elfa.se/sv/tryckvippstroemstaellarep-10-28-vdc-arcolectric-r13112blab/p/30013207) - Turn on/off the NUC computer.
 * [Power Connector](https://www.elfa.se/en/power-plug-lumberg-connect-gmbh-1634-02/p/30068406) - Power DC plug that fits the NUC computer. 
-* Mount bracket (3D printed) to hold the computer. Will replace the normal battery bracket.
-
+* Mount bracket (3D printed) to hold the computer / batteries. Will replace the normal battery bracket.
 
 ## 3D printed computer / battery holder
 
-This setup require that you print the following item.
+This setup requires that you 3D print the following item.
 
 ![alt text][mount]
 
 [mount]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount.jpeg "3D printed mounting bracket for holding the batteries and the NUC computer"
 
-
+The CAD drawing is available [here](https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount.cadfile).
 
 
 ## Modifications
+
+### Battery connection
+
+The battery power is accesse by soldering two wrires as described in the [HRP starup guide document](https://github.com/HusqvarnaResearch/hrp/blob/master/Startup%20Guide%20HRP.pdf) in the "Power Option Section" to get direct access to the batteries.
+
+To be able to turn on and off the power an additional power switch is mounted close to the rear right wheel as shown below.
+
+![alt text][battery_switch]
+![alt text][battery_switch2]
+
+[battery_switch]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/battery_switch.jpeg "Battery switch - outside"
+
+[battery_switch2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/battery_switch.jpeg "Battery switch - inside"
+
+### Serial connection
+
+To communicate with the mower an USB <-> serial adapter is used (see the hardware list above). One of the AUX port is used with the serial connector. The following pins are connected:
+
+| AUX (backplane) | USB serial board |
+| ------ | ------ |
+| 1 (red) | 7 |
+| 2 | 8 |
+| 3 | 1 |
+
+### Computer / battery mount
 
 In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below (please also note the battery extension cable [black / yellow]).
 
 ![alt text][batteries]
 
 [batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
+
+
+The 3D printout is placed as shown below. Note that the 2 smaller holes are used to secure the NUC computer (which utilizes these holes to mount a VESA compatible plate. The 4 countersink is for the NUC rubber support legs to get a snug fit.
