@@ -68,6 +68,5 @@ The complete setup with the NUC computer is shown below.
 
 
 [batteries]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/batteries.jpeg "Placement of batteries"
-[mount2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket".
-[mount3]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount3.jpeg "Placement of mounting bracket".
-
+[mount2]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount2.jpeg "Placement of mounting bracket"
+[mount3]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount3.jpeg "The complete setup"
