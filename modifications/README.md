@@ -52,7 +52,7 @@ To communicate with the mower an USB <-> serial adapter is used (see the hardwar
 
 ### Computer / battery mount
 
-In order to fit the relatively large NUC box (L x W x H = 115 x 155 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below (please also note the battery extension cable [black / yellow]).
+In order to fit the relatively heigh NUC box (L x W x H = 115 x 115 x 50 mm) the batteries positions needs to be changed. The original battery holder needs to be removed. Place the batteries as shown below (please also note the battery extension cable [black / yellow]).
 
 ![alt text][batteries]
 
