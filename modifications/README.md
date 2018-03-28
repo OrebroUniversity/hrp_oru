@@ -19,11 +19,13 @@ Below is a complete list of hardware along with references to locations where yo
 
 This setup requires that you 3D print the following item.
 
+![alt text][computer_fastening_v2_1]
 ![alt text][mount]
 
+[computer_fastening_v2_1]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/computer_fastening_v2_2.jpg "3D printed mounting bracket for holding the batteries and the NUC computer"
 [mount]: https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount.jpeg "3D printed mounting bracket for holding the batteries and the NUC computer"
 
-The CAD drawing is available [here](https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/mount.cadfile).
+The stp file is available [here](https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications/lawnmower_computer_fastening_v2.stp).
 
 
 ## Modifications
