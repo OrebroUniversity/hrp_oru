@@ -3,3 +3,9 @@
 More information regarding HRP can be found [here](https://github.com/HusqvarnaResearch/hrp).
 
 The modifications done to the HRP hardware to fit additional computational resources (fitting a NUC) are detailed, including STP files for printing, is found [here](https://github.com/OrebroUniversity/hrp_oru/blob/master/modifications).
+
+
+### How to install git-lfs used in the HRP repository
+
+`curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash`
+`sudo apt install git-lfs`
